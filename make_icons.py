@@ -59,6 +59,12 @@ ICONS = {
         rrect("bar3", [154, 74, 28, 112], 6), SHADOW,
         rrect("base", [64, 190, 128, 8], 4),
     ],
+    "shield": [  # 방패 + 체크 — 정기 검사
+        bg("#26a69a", "#004d40"),
+        path("shield", [[128, 58], [190, 80], [186, 136], [128, 198], [70, 136], [66, 80]]), SHADOW,
+        path("check", [[100, 126], [120, 146], [158, 106]], fill=None, closed=False,
+             stroke={"width": 14, "color": "#00695c", "cap": "round", "join": "round", "align": "center"}),
+    ],
     "house": [  # 집 — 집 구하기
         bg("#ab47bc", "#4a148c"),
         path("house", [[128, 60], [200, 124], [180, 124], [180, 194], [76, 194], [76, 124], [56, 124]]), SHADOW,

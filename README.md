@@ -7,6 +7,7 @@
 | `icons/page.png` | 초록 · 접힌 종이와 글줄 |
 | `icons/calendar.png` | 파랑 · 달력과 체크 |
 | `icons/chart.png` | 주황 · 오르는 막대 |
+| `icons/shield.png` | 청록 · 방패와 체크 |
 | `icons/house.png` | 보라 · 집 |
 
 - **정본은 [make_icons.py](make_icons.py)** 다. PNG 는 산출물이라 손으로 고치지 않는다 — 스크립트를 고쳐 `python3 make_icons.py` 로 다시 그린다(PhotoCraft 0.21.0 명령줄 · 256×256).
